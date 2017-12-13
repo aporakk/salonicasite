@@ -1,24 +1,112 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>About Thessaloniki</title>
-		<link rel="stylesheet" href="styles.css">
-	</head>
-	<body>
-		<a id="Top"></a>
-		<h1>Thessaloniki</h1>
-		<img style="margin: auto;width: 100%;" src="images/thessaloniki.jpg" alt="Thessaloniki view">
-		<p>Welcome to the Thessaloniki website! Thessaloniki, the second largest city in Greece with a population of 1,000,000 inhabitants, is one of the oldest cities in Europe. It stretches over twelve kilometers in a bowl formed by low hills facing a bay that opens into the Gulf Thermaikos.
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Thessaloniki for All</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="main.css"
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+		<!--header-->
+		<div class="row text-center">
+			<div class="col-md-12">
+				<h1 class="fancy">Thessaloniki for All</h1>
+			</div>
+		</div>
+		<!--carousel-->
+		<div class="row">
+			<div id="demo" class="carousel slide" data-ride="carousel">
 
-The town has today two quite distinct sectors: The "old town", continuously undergoing reconstruction, and the modern sector, whose many modern buildings are examples of advanced architecture.
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
 
-In this web page you can learn more about the history of the city, and see the places you can visit in Thessaloniki.<br>Feel free to browse around the following links!</p>
-		<a href="history.html">The History of Thessaloniki</a><br>
-		<a href="visit.html">Places to visit in Thessaloniki</a><br>
-		<a href="references.html">References</a><br>
-		<a href="pictures.html">Pictures from Thessaloniki</a><br>
-		<a href="map.html">Map of Thessaloniki</a><br>
-		<a href="#Top">Top of page</a>
-		<hr><h6>Created by: PG<br>Last update: 5th of December,2017</h6>
-	</body>
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="ThessLanding/carousel01.jpg" class="img-fluid" alt="View from the Port">
+	  <div class="carousel-caption">
+    <h3 class="fancy">View from the Port</h3>
+    <p>Thessaloniki has a beautiful port!</p>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img src="ThessLanding/carousel02.jpg" class="img-fluid" alt="View of the White Tower">
+	  <div class="carousel-caption">
+    <h3 class="fancy">View of the White Tower</h3>
+    <p>Thessaloniki's main monument!</p>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img src="ThessLanding/carousel03.jpg" class="img-fluid" alt="View of the Music Hall">
+	  <div class="carousel-caption">
+    <h3 class="fancy">View of the Music Hall</h3>
+    <p>Thessaloniki's culture hut!</p>
+  </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+		</div>
+		<!--text-->
+		<div class="row align-items-center">
+			<div class="col-md-3">
+				<img src="ThessLanding/history.jpg" class="img-fluid" alt="History">
+			</div>
+			<div class="col-md-9">
+				<p>A city full of history of over 4000 years! There are many historical places to visit and museums available. All the museums are located in the center of the city and in close distance from one  to another.</p>
+			</div>
+		</div>
+		<div class="row align-items-center">
+			<div class="col-md-3">
+				<img src="ThessLanding/history.jpg" class="img-fluid" alt="History">
+			</div>
+			<div class="col-md-9">
+				<p>Gastronomy is an art in this city as it is top 100 cities in the world with the best food. Many restaurants are located throughout the city, offering a variety of dishes and cuisines. Make sure to visit them.</p>
+			</div>
+		</div>
+		<div class="row align-items-center">
+			<div class="col-md-3">
+				<img src="ThessLanding/history.jpg" class="img-fluid" alt="History">
+			</div>
+			<div class="col-md-9">
+				<p>Thessaloniki is known for the cutlural influence it has not only in Greece, but throughout the world. Many great artists, philosophers, and people of the mind have originated from this city.</p>
+			</div>
+		</div>
+		<div class="row align-items-center">
+			<div class="col-md-3">
+				<img src="ThessLanding/history.jpg" class="img-fluid" alt="History">
+			</div>
+			<div class="col-md-9">
+				<p>A city that never sleeps, it has one of the youngest population in Greece, andthus a great night life.</p>
+			</div>
+		</div>
+		<!--footer-->
+		<div class="row">
+
+		</div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
 </html>
